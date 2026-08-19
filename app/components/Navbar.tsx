@@ -10,17 +10,17 @@ import {
 } from "lucide-react";
 
 const navLinks = [
-  { label: "Featured Properties", href: "featured-properties" },
+  { label: "Featured Properties", href: "featured" },
   { label: "Buy", href: "buy" },
   { label: "Rent", href: "rent" },
-  { label: "Investment Projects", href: "investment-projects" },
-  { label: "Why Choose Us", href: "why-choose-us" },
+  { label: "Investment Projects", href: "projects" },
+  { label: "Why Choose Us", href: "why-us" },
   { label: "Contact", href: "contact" },
 ];
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [active, setActive] = useState("featured-properties");
+  const [active, setActive] = useState("featured");
 
   const scrollTo = (id: string) => {
     setActive(id);
@@ -38,7 +38,7 @@ export default function Navbar() {
           <span className="flex items-center justify-center rounded-xl bg-[#0B192C] p-2">
             <Building2 className="h-5 w-5 text-[#D4AF37]" />
           </span>
-          <span className="font-bold text-xl text-[#0B192C]">Prime Estate</span>
+          <span className="font-bold text-xl text-[#0B192C]">Abu Dawood Estate</span>
         </button>
 
         <div className="hidden items-center gap-8 lg:flex">
@@ -62,11 +62,11 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href="tel:+1234567890"
+            href="tel:+923041997215"
             className="flex items-center gap-2 rounded-xl border-2 border-[#D4AF37] px-4 py-2 text-sm font-semibold text-[#0B192C] transition-colors hover:bg-[#D4AF37]/10"
           >
             <Phone className="h-4 w-4" />
-            <span className="hidden xl:inline">+1 (234) 567-890</span>
+            <span className="hidden xl:inline">+92 304 1997215</span>
           </a>
           <button className="rounded-xl bg-[#D4AF37] px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-[#B89628]">
             List Your Property
@@ -107,11 +107,11 @@ export default function Navbar() {
 
               <div className="mt-3 flex flex-col gap-3 border-t border-slate-200/60 pt-4">
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+923041997215"
                   className="flex items-center justify-center gap-2 rounded-xl border-2 border-[#D4AF37] px-4 py-2.5 text-sm font-semibold text-[#0B192C] transition-colors hover:bg-[#D4AF37]/10"
                 >
                   <Phone className="h-4 w-4" />
-                  +1 (234) 567-890
+                  +92 304 1997215
                 </a>
                 <button className="rounded-xl bg-[#D4AF37] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#B89628]">
                   List Your Property

@@ -37,16 +37,16 @@ const filters = ["All", "Villa", "Apartment", "Plot", "Commercial"] as const;
 const properties: Property[] = [
   {
     id: 1,
-    name: "Luxury 1 Kanal Modern Villa",
+    name: "Luxury 1 Kanal Modern House",
     type: "villa",
     tag: "Hot Deal",
     tagColor: "bg-red-500",
-    price: "PKR 8.5 Crore",
+    price: "PKR 4.5 Crore",
     beds: 5,
     baths: 6,
     area: "4,500 sqft",
     parking: "2 Cars",
-    location: "DHA Phase 6",
+    location: "Madina Town, Faisalabad",
     gradient: "from-slate-200 to-slate-300",
     icon: <Building2 className="w-12 h-12 text-slate-400" />,
   },
@@ -56,12 +56,12 @@ const properties: Property[] = [
     type: "commercial",
     tag: "Prime Location",
     tagColor: "bg-[#D4AF37]",
-    price: "PKR 12 Crore",
+    price: "PKR 6.5 Crore",
     beds: 0,
     baths: 0,
-    area: "8 Marla",
+    area: "4 Marla",
     parking: "-",
-    location: "Gulberg III Main Blvd",
+    location: "D-Ground, Faisalabad",
     gradient: "from-amber-100 to-amber-200",
     icon: <LandPlot className="w-12 h-12 text-amber-400" />,
   },
@@ -71,27 +71,27 @@ const properties: Property[] = [
     type: "apartment",
     tag: "Ready to Move",
     tagColor: "bg-emerald-500",
-    price: "PKR 1.8 Crore",
+    price: "PKR 85 Lac",
     beds: 2,
     baths: 2,
     area: "1,200 sqft",
     parking: "1 Car",
-    location: "Lake City Heights",
+    location: "Gulberg, Faisalabad",
     gradient: "from-blue-100 to-blue-200",
     icon: <Home className="w-12 h-12 text-blue-400" />,
   },
   {
     id: 4,
-    name: "4 Kanal Farmhouse Plot",
+    name: "2 Kanal Farmhouse Plot",
     type: "plot",
     tag: "New Launch",
     tagColor: "bg-[#0B192C]",
-    price: "PKR 4.2 Crore",
+    price: "PKR 2.8 Crore",
     beds: 0,
     baths: 0,
-    area: "4 Kanal",
+    area: "2 Kanal",
     parking: "-",
-    location: "Bedian Road",
+    location: "Sargodha Road, Faisalabad",
     gradient: "from-green-100 to-green-200",
     icon: <LandPlot className="w-12 h-12 text-green-400" />,
   },
@@ -149,10 +149,10 @@ export default function FeaturedProperties() {
         </div>
 
         <motion.div
+          key={activeFilter}
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
+          animate="visible"
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {filtered.map((property) => (

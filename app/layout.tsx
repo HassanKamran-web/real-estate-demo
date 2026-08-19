@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Prime Estate | Premium Real Estate & Property Advisory Platform",
+  title: "Abu Dawood Estate Linkers | Premium Real Estate Faisalabad",
   description:
-    "Discover verified residential plots, commercial spaces, and luxury apartments with complete legal protection. Your trusted real estate advisory platform.",
+    "Abu Dawood Estate Linkers - Faisalabad's trusted real estate advisory. Verified residential plots, commercial spaces, and luxury apartments with complete legal protection.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

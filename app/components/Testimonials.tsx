@@ -15,11 +15,11 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     name: "Ahmad R.",
-    role: "DHA Phase 6 Villa Buyer",
+    role: "Madina Town House Buyer",
     rating: 5,
     review:
-      "Prime Estate made our villa purchase completely hassle-free. The legal verification was thorough, and the team guided us through every step. Highly recommended!",
-    location: "DHA Phase 6, Lahore",
+      "Abu Dawood Estate Linkers made our house purchase completely hassle-free. The legal verification was thorough, and the team guided us through every step. Highly recommended!",
+    location: "Madina Town, Faisalabad",
   },
   {
     name: "Sarah K.",
@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     review:
       "As an overseas Pakistani, I was worried about buying property remotely. The team handled everything professionally and kept me updated throughout. Excellent service!",
-    location: "Gulberg III, Lahore",
+    location: "Gulberg, Faisalabad",
     dark: true,
   },
   {
@@ -35,8 +35,8 @@ const testimonials: Testimonial[] = [
     role: "Commercial Plot Buyer",
     rating: 5,
     review:
-      "Found the perfect commercial plot through Prime Estate. Their market knowledge is exceptional, and the ROI projections were spot on. Great investment partner!",
-    location: "Main Boulevard, Gulberg",
+      "Found the perfect commercial plot through Abu Dawood Estate. Their market knowledge is exceptional, and the ROI projections were spot on. Great investment partner!",
+    location: "D-Ground, Faisalabad",
   },
   {
     name: "Fatima A.",
@@ -44,7 +44,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     review:
       "As a first-time buyer, I had many questions. The portfolio manager was incredibly patient and helpful. We got our dream apartment within budget!",
-    location: "Lake City Heights",
+    location: "Clock Tower, Faisalabad",
   },
   {
     name: "Hassan M.",
@@ -52,7 +52,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     review:
       "The investment advisory was top-notch. They recommended the perfect farmhouse plot that has already appreciated 30% in value. Truly professional team!",
-    location: "Bedian Road, Lahore",
+    location: "Sargodha Road, Faisalabad",
     dark: true,
   },
   {
@@ -61,7 +61,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     review:
       "Found a beautiful rental apartment in minutes. The team's attention to detail and quick response time made the whole process smooth and enjoyable.",
-    location: "Johar Town, Lahore",
+    location: "Susan Road, Faisalabad",
   },
 ];
 

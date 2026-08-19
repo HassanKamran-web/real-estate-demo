@@ -19,7 +19,7 @@ export default function LeadCapture() {
   const handleWhatsApp = () => {
     const text = `Hi, I'm interested in your real estate services. Name: ${name}, Interest: ${interest}, Budget: ${budget}`;
     window.open(
-      `https://wa.me/923001234567?text=${encodeURIComponent(text)}`,
+      `https://wa.me/923041997215?text=${encodeURIComponent(text)}`,
       "_blank"
     );
   };
@@ -138,11 +138,11 @@ export default function LeadCapture() {
                 Connect via WhatsApp
               </button>
               <a
-                href="tel:+923001234567"
+                href="tel:+923041997215"
                 className="w-full mt-3 border border-slate-200 text-slate-700 rounded-xl py-3 font-semibold flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                Or Call Us Now: +92 300 123 4567
+                Or Call Us Now: +92 304 1997215
               </a>
             </form>
           </div>

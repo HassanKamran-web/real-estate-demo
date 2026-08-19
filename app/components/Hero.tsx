@@ -48,7 +48,7 @@ export default function Hero() {
           <div className="order-2 lg:order-1">
             <div className="inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-1.5 text-sm font-medium text-amber-700">
               <ShieldCheck className="h-4 w-4" />
-              #1 Real Estate & Property Advisory Platform
+              #1 Real Estate & Property Advisory in Faisalabad
             </div>
 
             <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight text-slate-900 md:text-5xl lg:text-6xl">
@@ -59,7 +59,7 @@ export default function Hero() {
 
             <p className="mt-5 max-w-lg text-lg leading-relaxed text-slate-600">
               Discover verified residential plots, commercial spaces, and luxury
-              apartments with complete legal protection.
+              apartments in Faisalabad with complete legal protection.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-2 rounded-2xl bg-white p-1.5 shadow-lg ring-1 ring-slate-900/5">
@@ -157,7 +157,7 @@ export default function Hero() {
                 }}
                 className="absolute bottom-20 left-4 rounded-full bg-white/90 px-3 py-1 text-sm font-semibold text-[#0B192C] shadow-lg backdrop-blur"
               >
-                DHA Phase 6 Villa
+                Madina Town, Faisalabad
               </motion.div>
 
               <motion.div

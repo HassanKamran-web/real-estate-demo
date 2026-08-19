@@ -36,14 +36,14 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Building2 className="w-6 h-6 text-[#D4AF37]" />
-              <span className="text-xl font-bold">Prime Estate</span>
+              <span className="text-xl font-bold">Abu Dawood Estate</span>
             </div>
             <p className="text-sm text-slate-300 mb-4 leading-relaxed">
-              Your trusted real estate advisory platform since 2015. Licensed,
+              Your trusted real estate advisory in Faisalabad. Licensed,
               verified, and committed to transparency in every deal.
             </p>
             <p className="text-sm text-slate-400 mb-4">
-              Licensed: RDA/REDA/2015-XXX
+              Licensed: Faisalabad Development Authority
             </p>
             <div className="flex items-center gap-2 mb-6">
               <Clock className="w-4 h-4 text-slate-400" />
@@ -86,25 +86,25 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-slate-400" />
                 <span className="text-sm text-slate-300">
-                  123 Main Boulevard, Gulberg III, Lahore, Pakistan
+                  C42C+R55, Sabri Darbar Rd, Al Najaf Colony, Faisalabad
                 </span>
               </div>
               <div className="flex items-start gap-3">
                 <Phone className="w-4 h-4 mt-0.5 shrink-0 text-slate-400" />
                 <span className="text-sm text-slate-300">
-                  +92 300 123 4567
+                  +92 304 1997215
                 </span>
               </div>
               <div className="flex items-start gap-3">
                 <MessageCircle className="w-4 h-4 mt-0.5 shrink-0 text-slate-400" />
                 <span className="text-sm text-slate-300">
-                  +92 300 987 6543
+                  WhatsApp: +92 304 1997215
                 </span>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-4 h-4 mt-0.5 shrink-0 text-slate-400" />
                 <span className="text-sm text-slate-300">
-                  info@primeestate.pk
+                  info@abudawoodestate.pk
                 </span>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <span className="text-sm text-slate-400">
-            &copy; 2024 Prime Estate. All rights reserved.
+            &copy; 2024 Abu Dawood Estate Linkers. All rights reserved.
           </span>
           <span className="text-sm text-slate-400">
             Designed with &#10084; for Modern Real Estate
